@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body class="signup_page">
+
+    <!--NAVBAR-->
+    <nav class="navbar_nobg">
+        <h1 class="logo"><a href="homepage.html">Temples of India</a></h1>
+    </nav>
+
+    <section class="signup_container">
+        <h1 class="signup_form_title">Adventure begins here!</h1>
+        <form action="#" class="signup_form">
+        <div class="signup_user_info">
+            <div class="signup_input">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your full name" required>
+            </div>
+            <div class="signup_input">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter username" required>
+            </div>
+            <div class="signup_input">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" placeholder="Enter your email" required>
+            </div>
+            <div class="signup_input">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+            </div>
+            <div class="signup_input">
+                <label for="pswrd">Password</label>
+                <input type="password" id="pswrd" name="pswrd" placeholder="Enter password" required>
+            </div>
+            <div class="signup_input">
+                <label for="cnpswrd">Confirm Password</label>
+                <input type="password" id="cnpswrd" name="cnpswrd" placeholder="Confirm password" required>
+            </div>
+        </div>
+        <div class="signup_gender">
+            <span class="signup_gender_title">Gender</span>
+            <div class="signup_gender_category">
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        <div class="signup_submitbtn">
+            <input type="submit" value="Signup">
+        </div>
+        <div class="signup_bottom">
+            <button type="button" class="signup_cancelbtn"><a href="homepage.html">Cancel</a></button>
+            <span class="login">Already have an account? <a href="login_page.html">Login</a></span>
+        </div>
+        </form>
+      </section>
+</body>
+</html>
